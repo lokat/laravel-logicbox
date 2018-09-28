@@ -1,8 +1,8 @@
 <?php
 
-namespace Dhawton\LaravelLb;
+namespace Lokat\LaravelLb;
 
-use Dhawton\LaravelLb\LogicBoxes;
+use Lokat\LaravelLb\LogicBoxes;
 
 class LogicBoxesContact extends LogicBoxes {
 
@@ -49,7 +49,7 @@ class LogicBoxesContact extends LogicBoxes {
     }
 
     /* Add new contact
-     * @return Dhawton\LaravelLb\LogicBoxes
+     * @return Lokat\LaravelLb\LogicBoxes
      */
     public function add($variables) {
         $method = "add";

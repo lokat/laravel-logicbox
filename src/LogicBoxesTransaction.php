@@ -1,8 +1,8 @@
 <?php
 
-namespace Dhawton\LaravelLb;
+namespace Lokat\LaravelLb;
 
-use Dhawton\LaravelLb\LogicBoxes;
+use Lokat\LaravelLb\LogicBoxes;
 
 class LogicBoxesTransaction extends LogicBoxes {
 

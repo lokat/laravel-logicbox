@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhawton\LaravelLb;
+namespace Lokat\LaravelLb;
 
 class LogicBoxesProduct extends LogicBoxes {
 

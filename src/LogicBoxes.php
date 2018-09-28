@@ -1,13 +1,13 @@
 <?php
 
-namespace Dhawton\LaravelLb;
+namespace Lokat\LaravelLb;
 
-use Dhawton\LaravelLb\Exceptions\ErrorResponseException;
-use Dhawton\LaravelLb\Exceptions\InvalidFormatException;
-use Dhawton\LaravelLb\Exceptions\InvalidRequestTypeException;
-use Dhawton\LaravelLb\Exceptions\TimeoutResponseException;
+use Lokat\LaravelLb\Exceptions\ErrorResponseException;
+use Lokat\LaravelLb\Exceptions\InvalidFormatException;
+use Lokat\LaravelLb\Exceptions\InvalidRequestTypeException;
+use Lokat\LaravelLb\Exceptions\TimeoutResponseException;
 
-use Dhawton\LaravelLb\Request;
+use Lokat\LaravelLb\Request;
 
 use GuzzleHttp;
 use GuzzleHttp\Exception\RequestException;

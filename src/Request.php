@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhawton\LaravelLb;
+namespace Lokat\LaravelLb;
 
 Class Request
 {

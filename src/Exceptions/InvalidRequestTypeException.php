@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhawton\LaravelLb\Exceptions;
+namespace Lokat\LaravelLb\Exceptions;
 
 use Exception;
 /**

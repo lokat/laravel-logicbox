@@ -1,12 +1,12 @@
 <?php
 
-namespace Dhawton\LaravelLb;
+namespace Lokat\LaravelLb;
 
-use Dhawton\LaravelLb\LogicBoxes;
+use Lokat\LaravelLb\LogicBoxes;
 
 /**
  * Class LogicBoxesDomain
- * @package Dhawton\LaravelLb
+ * @package Lokat\LaravelLb
  */
 class LogicBoxesDomain extends LogicBoxes
 {
@@ -143,7 +143,7 @@ class LogicBoxesDomain extends LogicBoxes
 
     /**
      * @param array $parameters
-     * @return \Dhawton\LaravelLb\LogicBoxes
+     * @return \Lokat\LaravelLb\LogicBoxes
      */
     public function renew(array $parameters) {
         $method = "renew";
@@ -154,7 +154,7 @@ class LogicBoxesDomain extends LogicBoxes
     /**
      * @param string $keyword
      * @param bool $exactMatch
-     * @return \Dhawton\LaravelLb\LogicBoxes
+     * @return \Lokat\LaravelLb\LogicBoxes
      */
     public function suggestions(string $keyword, bool $exactMatch = false) {
         $parameters = [
@@ -170,7 +170,7 @@ class LogicBoxesDomain extends LogicBoxes
      * @param array|string $nameservers
      * @param array $parameters
      *
-     * @return \Dhawton\LaravelLb\LogicBoxes
+     * @return \Lokat\LaravelLb\LogicBoxes
      */
     public function register(string $domain, $nameservers, array $parameters) {
         $method = "register";
@@ -184,7 +184,7 @@ class LogicBoxesDomain extends LogicBoxes
      * @param string        $cns
      * @param string|array  $ip
      *
-     * @return \Dhawton\LaravelLb\LogicBoxes
+     * @return \Lokat\LaravelLb\LogicBoxes
      */
     public function addChildNameServer(int $orderId, string $cns, $ip) {
         $method = "add-cns";
@@ -201,7 +201,7 @@ class LogicBoxesDomain extends LogicBoxes
      * @param string        $cns
      * @param string|array  $ip
      *
-     * @return \Dhawton\LaravelLb\LogicBoxes
+     * @return \Lokat\LaravelLb\LogicBoxes
      */
     public function deleteChildNameServer(int $orderId, string $cns, $ip) {
         $method = "delete-cns-ip";
@@ -218,7 +218,7 @@ class LogicBoxesDomain extends LogicBoxes
      * @param string $oldCns
      * @param string $newCns
      *
-     * @return \Dhawton\LaravelLb\LogicBoxes
+     * @return \Lokat\LaravelLb\LogicBoxes
      */
     public function modifyChildNameServerName(int $orderId, string $oldCns, string $newCns) {
         $parameters = [
@@ -236,7 +236,7 @@ class LogicBoxesDomain extends LogicBoxes
      * @param string $oldip
      * @param string $newip
      *
-     * @return \Dhawton\LaravelLb\LogicBoxes
+     * @return \Lokat\LaravelLb\LogicBoxes
      */
     public function modifyChildNameServerIps(int $orderId, string $cns, string $oldip, string $newip) {
         $method = 'modify-cns-ip';
