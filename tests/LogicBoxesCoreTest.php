@@ -1,9 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Dhawton\LaravelLb\LogicBoxes;
-use Dhawton\LaravelLb\Exceptions\InvalidFormatException;
-use Dhawton\LaravelLb\Exceptions\InvalidRequestTypeException;
+use Lokat\LaravelLb\LogicBoxes;
+use Lokat\LaravelLb\Exceptions\InvalidFormatException;
+use Lokat\LaravelLb\Exceptions\InvalidRequestTypeException;
 
 class LogicBoxesCoreTest extends TestCase
 {

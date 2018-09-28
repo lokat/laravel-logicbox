@@ -2,7 +2,7 @@
 
 require __DIR__.'/autoload.php';
 
-use Dhawton\LaravelLb\LogicBoxesComodo;
+use Lokat\LaravelLb\LogicBoxesComodo;
 
 // Setup user id and api key
 $userId = getenv('LB_AUTH_USERID');

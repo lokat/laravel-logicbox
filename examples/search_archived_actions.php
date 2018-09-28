@@ -2,8 +2,8 @@
 
 require __DIR__.'/autoload.php';
 
-use Dhawton\LaravelLb\LogicBoxesAction;
-use Dhawton\LaravelLb\Exceptions\TimeoutResponseException;
+use Lokat\LaravelLb\LogicBoxesAction;
+use Lokat\LaravelLb\Exceptions\TimeoutResponseException;
 
 // Setup user id and api key
 $userId = getenv('LB_LIVE_AUTH_USERID');

@@ -2,7 +2,7 @@
 
 require __DIR__.'/autoload.php';
 
-use Dhawton\LaravelLb\LogicBoxesContact;
+use Lokat\LaravelLb\LogicBoxesContact;
 
 $contact = new LogicBoxesContact();
 

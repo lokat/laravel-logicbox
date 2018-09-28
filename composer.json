@@ -1,12 +1,12 @@
 {
-  "name": "dhawton/laravel-logicbox",
-  "description": "Library that let you connect your laravel application to Logicbox's API with ease",
-  "homepage": "http://www.danielhawton.com",
+  "name": "lokat/laravel-logicbox",
+  "description": "Library that let you connect your laravel application to Logicbox's API with ease. Original author by Dhawton",
+  "homepage": "http://www.zulhalimi.com",
   "license": "MIT",
   "authors": [
     {
-      "name": "Daniel Hawton",
-      "email": "daniel@hawton.org"
+      "name": "Zulhalimi Anuar",
+      "email": "email@zulhalimi.com"
     }
   ],
   "minimum-stability": "dev",
@@ -20,13 +20,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Dhawton\\LaravelLb\\": "src/"
+      "Lokat\\LaravelLb\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Dhawton\\LaravelLb\\LaravelLbServiceProvider"
+        "Lokat\\LaravelLb\\LaravelLbServiceProvider"
       ]
     }
   }

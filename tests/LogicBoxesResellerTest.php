@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Dhawton\LaravelLb\LogicBoxesReseller;
+use Lokat\LaravelLb\LogicBoxesReseller;
 
 class LogicBoxesResellerTest extends TestCase
 {

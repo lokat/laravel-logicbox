@@ -2,7 +2,7 @@
 
 require __DIR__.'/autoload.php';
 
-use Dhawton\LaravelLb\LogicBoxesTransaction;
+use Lokat\LaravelLb\LogicBoxesTransaction;
 use Carbon\Carbon;
 
 // Setup user id and api key
