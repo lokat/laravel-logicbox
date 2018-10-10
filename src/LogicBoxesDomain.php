@@ -180,6 +180,20 @@ class LogicBoxesDomain extends LogicBoxes
     }
 
     /**
+     * @param string $domain
+     * @param array|string $nameservers
+     * @param array $parameters
+     *
+     * @return \Lokat\LaravelLb\LogicBoxes
+     */
+    public function transfer(string $domain, $nameservers, array $parameters) {
+        $method = "transfer";
+        $parameters['domain-name'] = $domain;
+        $this->setAppends(['ns' => $nameservers]);
+        return $this->post($this->resource, $method, $parameters);
+    }
+
+    /**
      * @param int           $orderId
      * @param string        $cns
      * @param string|array  $ip
