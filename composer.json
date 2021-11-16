@@ -1,33 +1,33 @@
 {
-  "name": "lokat/laravel-logicbox",
-  "description": "Library that let you connect your laravel application to Logicbox's API with ease. Original author by Dhawton",
-  "homepage": "http://www.zulhalimi.com",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Zulhalimi Anuar",
-      "email": "email@zulhalimi.com"
+    "name": "lokat/laravel-logicbox",
+    "description": "Library that let you connect your laravel application to Logicbox's API with ease. Original author by Dhawton",
+    "homepage": "http://www.zulhalimi.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zulhalimi Anuar",
+            "email": "email@zulhalimi.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "vlucas/phpdotenv": "^5.4",
+        "nesbot/carbon": "^2.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lokat\\LaravelLb\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lokat\\LaravelLb\\LaravelLbServiceProvider"
+            ]
+        }
     }
-  ],
-  "minimum-stability": "dev",
-  "require": {
-    "php": ">=7.0.0",
-    "vlucas/phpdotenv": "^3.6",
-    "nesbot/carbon": "^1.21"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "5.5.*"
-  },
-  "autoload": {
-    "psr-4": {
-      "Lokat\\LaravelLb\\": "src/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Lokat\\LaravelLb\\LaravelLbServiceProvider"
-      ]
-    }
-  }
 }
